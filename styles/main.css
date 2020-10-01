@@ -8,14 +8,17 @@ body {
     background-position: center;
     background-size: cover;
     color: white;
-    text-shadow: 2px 2px magenta;
+    text-shadow: 1px 1px magenta;
 }
 .mainContainer {
     display: flex;
+    padding: 50px;
 }
-.left, .right, .fish, .travel {
-    border: 1px dotted;
+.fish, .travel, aside {
     text-align: center;
+    border: 1px magenta outset;
+    padding: 50px;
+
 }
 img {
     width: 250px;
@@ -27,15 +30,19 @@ img {
 .right {
     flex: 1;
 }
-h2.fish {
+h2 {
     text-align: center;
-}
-ul {
-    width: 50%;
-    margin: auto;
 }
 .fish {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: left;
+}
+.fish_card {
+    width: 50%;
+    margin: auto;
+}
+.travel {
+    display: flex;
+    flex-direction: column;
 }
