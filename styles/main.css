@@ -1,6 +1,15 @@
 h1 {
     text-align: center;
 }
+body {
+    background-image: url("https://www.sandals.com/blog/content/images/2019/10/shutterstock_22716565-2_web.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px magenta;
+}
 .mainContainer {
     display: flex;
 }
@@ -18,6 +27,9 @@ img {
 .right {
     flex: 1;
 }
+h2.fish {
+    text-align: center;
+}
 ul {
     width: 50%;
     margin: auto;
@@ -25,4 +37,5 @@ ul {
 .fish {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
