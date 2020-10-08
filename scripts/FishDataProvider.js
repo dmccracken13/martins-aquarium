@@ -17,7 +17,7 @@ const fishCollection = [
         image: "https://fish101.community.uaf.edu/wp-content/uploads/sites/14/2013/02/Pfish3.jpg"
     },
     {
-        name: "Warren"
+        name: "Warren",
         food: "Sponges, sessile invertebrates, zooplankton, and certain species of benthic microalgae",
         species: "King Angel Fish (Holacanthus Passer)",
         length: 13.7,
