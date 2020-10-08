@@ -1,5 +1,5 @@
-import { Fish } from "./Fish.js"
-import { useFish } from "./FishDataProvider.js"
+import { Fish } from "/scripts/Fish/Fish.js"
+import { useFish } from "/scripts/Fish/FishDataProvider.js"
 
 export const FishList = () => {
     const contentElement = document.querySelector(".mainContainer__left")
@@ -16,7 +16,7 @@ export const FishList = () => {
         <div class="fish">
         <ul class="fish__card">
             ${fishHTMLRepresentations}
-         </ul>
+        </ul>
         </div>
     `
 }
