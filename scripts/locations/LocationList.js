@@ -12,7 +12,7 @@ export const LocationList = () => {
     }
 
     contentElement.innerHTML += `
-        <h2 class="locations">Harvesting Locations</h2>
+        <h3 class="locations">Harvesting Locations</h3>
             <section class="travel__locations">
                 <div class="locations__card">
                 ${locationHTMLRepresentation}
